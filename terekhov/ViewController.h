@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+NSTimer *blinkTimer;
+BOOL toggle;
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lbDays;
+@property (strong, nonatomic) IBOutlet UILabel *lbHours;
+@property (strong, nonatomic) IBOutlet UILabel *lbMinutes;
+@property (strong, nonatomic) IBOutlet UIImageView *seconds;
 
 @end
